@@ -1,5 +1,5 @@
 # dynamic-player-orgs
-Facilitates player organizations with online-editable dynamic ranks/permissions/privs
+Facilitates player organizations with online-editable dynamic ranks/permissions/privs within the "PROGENY RPG" codebase
 
 This package implements what should be commonplace in the MUD world: a full engine for clan memberships that can be moderated even when members are offline.  It allows the owners of the clans to change their OWN rank/permission/privilege designations, and deliberately supports the structure of non-traditional clan structures (loose through strict ranks, hidden ranks, multileader or single ownership, et cetera).  There is no fundamental limit on how many of these clans can be created, and there is no need to edit any coded tables to create new/delete old clans.  There is negligible overhead for any MUD integrating this package (the only increase in strain will occur at startup and save times).
 
